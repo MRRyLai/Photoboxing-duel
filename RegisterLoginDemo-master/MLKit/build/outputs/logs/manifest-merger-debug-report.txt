@@ -1,0 +1,181 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:2:1-119:12
+INJECTED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:2:1-119:12
+INJECTED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:2:1-119:12
+	package
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:5:5-43
+		INJECTED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:4:5-51
+	xmlns:android
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:3:5-63
+	android:installLocation
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:6:5-35
+uses-sdk
+ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:12:5-15:63
+INJECTED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:12:5-15:63
+INJECTED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:12:5-15:63
+INJECTED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:12:5-15:63
+INJECTED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:12:5-15:63
+	tools:overrideLibrary
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:12:5-15:63
+	android:targetSdkVersion
+		INJECTED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:12:5-15:63
+		INJECTED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:12:5-15:63
+		INJECTED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml
+uses-feature#android.hardware.camera
+ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:17:5-59
+	android:name
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:17:19-57
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:19:5-66
+	android:name
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:19:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:20:5-80
+	android:name
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:20:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:21:5-79
+	android:name
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:21:22-77
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:22:5-64
+	android:name
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:22:22-62
+application
+ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:24:5-112:19
+	android:label
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:27:9-41
+	android:icon
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:26:9-44
+	android:theme
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:28:9-47
+	android:name
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:25:9-61
+meta-data#com.google.android.gms.version
+ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:30:9-32:68
+	android:value
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:32:13-66
+	android:name
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:31:13-58
+meta-data#com.google.mlkit.vision.DEPENDENCIES
+ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:36:9-38:62
+	android:value
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:38:13-60
+	android:name
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:37:13-64
+activity#com.google.mlkit.vision.demo.java.CameraXLivePreviewActivity
+ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:40:9-48:20
+	android:exported
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:42:13-36
+	android:theme
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:43:13-44
+	android:name
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:41:13-60
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:44:13-47:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:45:17-68
+	android:name
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:45:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:46:17-76
+	android:name
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:46:27-74
+activity#com.google.mlkit.vision.demo.java.ChooserActivity
+ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:50:9-53:20
+	android:exported
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:52:13-37
+	android:name
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:51:13-49
+activity#com.google.mlkit.vision.demo.java.LivePreviewActivity
+ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:55:9-59:20
+	android:exported
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:57:13-37
+	android:theme
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:58:13-44
+	android:name
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:56:13-53
+activity#com.google.mlkit.vision.demo.EntryChoiceActivity
+ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:61:9-65:20
+	android:exported
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:63:13-37
+	android:theme
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:64:13-44
+	android:name
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:62:13-48
+activity#com.google.mlkit.vision.demo.java.CameraXSourceDemoActivity
+ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:67:9-71:20
+	android:exported
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:69:13-37
+	android:theme
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:70:13-44
+	android:name
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:68:13-59
+activity#com.google.mlkit.vision.demo.java.StillImageActivity
+ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:73:9-77:20
+	android:exported
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:75:13-37
+	android:theme
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:76:13-44
+	android:name
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:74:13-52
+activity#com.google.mlkit.vision.demo.kotlin.ChooserActivity
+ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:79:9-82:20
+	android:exported
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:81:13-37
+	android:name
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:80:13-51
+activity#com.google.mlkit.vision.demo.kotlin.LivePreviewActivity
+ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:84:9-88:20
+	android:exported
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:86:13-37
+	android:theme
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:87:13-44
+	android:name
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:85:13-55
+activity#com.google.mlkit.vision.demo.kotlin.CameraXLivePreviewActivity
+ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:90:9-94:20
+	android:exported
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:92:13-37
+	android:theme
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:93:13-44
+	android:name
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:91:13-62
+activity#com.google.mlkit.vision.demo.kotlin.CameraXSourceDemoActivity
+ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:96:9-100:20
+	android:exported
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:98:13-37
+	android:theme
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:99:13-44
+	android:name
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:97:13-61
+activity#com.google.mlkit.vision.demo.kotlin.StillImageActivity
+ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:102:9-106:20
+	android:exported
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:104:13-37
+	android:theme
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:105:13-44
+	android:name
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:103:13-54
+activity#com.google.mlkit.vision.demo.preference.SettingsActivity
+ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:108:9-110:39
+	android:exported
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:110:13-37
+	android:name
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:109:13-56
+queries
+ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:113:5-117:15
+intent#action:name:android.media.action.IMAGE_CAPTURE
+ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:114:9-116:18
+action#android.media.action.IMAGE_CAPTURE
+ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:115:13-73
+	android:name
+		ADDED from C:\Users\User\AndroidStudioProjects\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:115:21-70

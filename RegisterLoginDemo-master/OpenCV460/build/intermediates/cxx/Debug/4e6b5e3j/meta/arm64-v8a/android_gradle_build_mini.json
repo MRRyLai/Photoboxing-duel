@@ -1,0 +1,33 @@
+{
+  "buildFiles": [
+    "C:\\Users\\User\\AndroidStudioProjects\\RegisterLoginDemo-master\\OpenCV460\\libcxx_helper\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\User\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+      "-C",
+      "C:\\Users\\User\\AndroidStudioProjects\\RegisterLoginDemo-master\\OpenCV460\\.cxx\\Debug\\4e6b5e3j\\arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\User\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-C",
+    "C:\\Users\\User\\AndroidStudioProjects\\RegisterLoginDemo-master\\OpenCV460\\.cxx\\Debug\\4e6b5e3j\\arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "opencv_jni_shared-Debug-arm64-v8a": {
+      "artifactName": "opencv_jni_shared",
+      "buildCommandComponents": [
+        "C:\\Users\\User\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "C:\\Users\\User\\AndroidStudioProjects\\RegisterLoginDemo-master\\OpenCV460\\.cxx\\Debug\\4e6b5e3j\\arm64-v8a",
+        "opencv_jni_shared"
+      ],
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\User\\AndroidStudioProjects\\RegisterLoginDemo-master\\OpenCV460\\.cxx\\Debug\\4e6b5e3j\\arm64-v8a\\libopencv_jni_shared.a",
+      "runtimeFiles": []
+    }
+  }
+}

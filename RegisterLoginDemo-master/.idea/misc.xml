@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/RegisterLoginDemo-master/MLKit/src/main/res/drawable/toggle_style.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/RegisterLoginDemo-master/MLKit/src/main/res/layout/activity_chooser.xml" value="0.18659420289855072" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/RegisterLoginDemo-master/MLKit/src/main/res/layout/activity_settings.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/RegisterLoginDemo-master/MLKit/src/main/res/layout/activity_still_image.xml" value="0.18659420289855072" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/RegisterLoginDemo-master/MLKit/src/main/res/layout/activity_vision_camerax_live_preview.xml" value="0.4" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/RegisterLoginDemo-master/MLKit/src/main/res/layout/activity_vision_live_preview.xml" value="0.14010416666666667" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/RegisterLoginDemo-master/MLKit/src/main/res/layout/toggle_style.xml" value="0.1296875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/RegisterLoginDemo-master/app/src/main/res/drawable/toggle_style.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/RegisterLoginDemo-master/app/src/main/res/layout/activity_client_connectand_wait.xml" value="0.17481884057971014" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/RegisterLoginDemo-master/app/src/main/res/layout/activity_face_detect_to_score_loading.xml" value="0.1296875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/RegisterLoginDemo-master/app/src/main/res/layout/activity_face_detection.xml" value="0.1296875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/RegisterLoginDemo-master/app/src/main/res/layout/activity_game_mode_select.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/RegisterLoginDemo-master/app/src/main/res/layout/activity_in_to_photo2.xml" value="0.1296875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/RegisterLoginDemo-master/app/src/main/res/layout/activity_main.xml" value="0.17481884057971014" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/RegisterLoginDemo-master/app/src/main/res/layout/activity_show_image.xml" value="0.17481884057971014" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/RegisterLoginDemo-master/app/src/main/res/layout/activity_show_score.xml" value="0.17481884057971014" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/RegisterLoginDemo-master/app/src/main/res/layout/activity_vision_camerax_live_preview.xml" value="0.4" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/RegisterLoginDemo-master/app/src/main/res/layout/toggle_style.xml" value="0.1296875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
