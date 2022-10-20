@@ -21,16 +21,20 @@ q = Queue(maxsize=10)
 backlog = 10
 BUF_SIZE = 1024         # Receive buffer size
 
+    # 26.72.187.29 VPN
+    # 192.168.0.10 家用
+    # 192.168.43.241 手機
 
 HOST = '127.0.0.1'
 PORT = 6666
 
 stack = []
+waitinggamestack[]
 userid = []
 conn_pool = []
 addr_list = []
 list_of_dfs = []
-stage = ["login", "register", "score", "rank"]#目前的階段
+stage = ["login", "register", "score", "rank", "playerwaiting", "openpose"]#目前的階段
 sleeptime = 3
 
 def extract_ip():
@@ -39,12 +43,14 @@ def extract_ip():
         st.connect(('10.255.255.255', 1))
         
         HOST = st.getsockname()[0]
+        print("HOST:")
+        print(HOST)
     except Exception:
         HOST = '127.0.0.1'
     finally:
         st.close()
     return HOST
-extract_ip()
+
 
 class ServerThread(threading.Thread):
     def __init__(self, t_name, client_sc, rip, rport):
@@ -54,6 +60,7 @@ class ServerThread(threading.Thread):
         self.value=0
         self.username = "username"
         self.email = "@gmail.com"
+        self.gamemode = "mode"
         self.rport = rport
         self.start()            # Start the thread when it is created
 
@@ -102,7 +109,7 @@ class ServerThread(threading.Thread):
                     
                 else:
                     print(stage[0])
-                    if(client_stage==stage[0]):# 判斷是否為登入/註冊階段
+                    if(client_stage==stage[0]):# 判斷是否為登入階段
                         #此部分為將進行 登入部分:email、password  註冊部分:name、email、password 資料的接收
                         #接收後，資料核對資料庫，如果有就回傳success給app沒有就傳failure
                         self.email = msg[1]
@@ -115,7 +122,7 @@ class ServerThread(threading.Thread):
                         print(result)
                         self.client.send(result.encode('utf-8'))
                         break
-                    elif(client_stage==stage[1]):
+                    elif(client_stage==stage[1]):#註冊階段
                         self.username = msg[1]
                         self.email = msg[2]
                         self.password = msg[3]
@@ -129,7 +136,7 @@ class ServerThread(threading.Thread):
                         print(result)
                         self.client.send(result.encode('utf-8'))
                         break
-                    elif(client_stage==stage[2]):# 判斷是否進入分數階段
+                    elif(client_stage==stage[2]):# 分數階段
                         # count=1
                         time_limit = 0
                         # print("length(self.data):%d message:%s\n"%(len(self.data),self.data))
@@ -246,7 +253,7 @@ class ServerThread(threading.Thread):
                         break
                         #########################################################
                         #做成loop
-                    elif(client_stage==stage[3]):
+                    elif(client_stage==stage[3]):#排名階段
                         print("In Rank.")
                         rank_list = Database_rank.print_rank()
                         rank_df = pd.DataFrame(rank_list, columns = ['Name', 'Score', 'Updatetime'])
@@ -266,6 +273,34 @@ class ServerThread(threading.Thread):
                         print(rank_str+"\n")
                         rank_str = rank_str+"\n"
                         self.client.send(rank_str.encode('utf-8'))
+                    elif(client_stage==stage[4]):#等待玩家階段
+                        print("In PlayerWaiting.")
+                        self.username = msg[1]
+                        self.email = msg[2]
+                        self.gamemode = msg[3]
+                        if(self.username!="username"&&self.email = msg[2]!="@gmail.com"):
+                            waitinggamestack.append((self.gamemode,self.username))
+                            waitinggamestack.reverse()
+                            print('Gamemode:%s and %s in stack'%(self.gamemode,self.username))
+                            cur_thread = threading.current_thread()
+                            while(len(waitinggamestack)==2):
+                                i=0
+                                for i in waitinggamestack:
+                                    if(i[1]==self.name):
+                                        # print('Waiting for message from client...')
+                                        pass
+                                    else:
+                                        print('i[0]:%s i[1]:%d'%(i[0],i[1]))
+                                        self.data = i[0]+", "+str(i[1])
+                                        something = str(stack.pop())
+                                        print("something:%s"%something)
+                                        self.data = self.data+"\n"
+                                        print(self.data)
+                                        self.client.send(self.data.encode('utf-8'))
+                                        print('Send msg to Client.')
+                                        # print("Now in list:%s"%str(stack))
+                                        print('Waiting for message from client...')
+                                        break
                     else:#完成回傳資料部分
                         break
                         
@@ -293,6 +328,7 @@ def main():
     srvSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     hostname = socket.gethostname()
     ip_address = socket.gethostbyname(hostname)
+    extract_ip()
     # print(socket.gethostbyname(socket.gethostname()))
     print(f"Hostname: {hostname}")
     print(f"IP Address: {ip_address}")
