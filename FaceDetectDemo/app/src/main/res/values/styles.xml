@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <declare-styleable name="RoundTextureView">
+        <attr name="textureRadius" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="RoundTextureViewJava">
+        <attr name="textureRadiusJava" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="CircleTextureBorderViewJava">
+        <attr name="circleTextureWidthJava" format="dimension" />
+        <attr name="circleTextureBorderColorJava" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleTextureBorderView">
+        <attr name="circleTextureWidth" format="dimension" />
+        <attr name="circleTextureBorderColor" format="color" />
+    </declare-styleable>
+
+</resources>
