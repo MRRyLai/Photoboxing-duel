@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#191919"
+    tools:context=".mlkit.GameModeSelect">
+
+    <Button
+        android:id="@+id/button_mode1"
+        android:layout_width="140dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="40dp"
+        android:onClick="Score_onClick"
+        android:text="拍照模式"
+        app:layout_constraintBottom_toTopOf="@+id/button_mode2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_mode2"
+        android:layout_width="140dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="60dp"
+        android:onClick="Score_onClick"
+        android:text="影片模式\n即時偵測"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="請選擇遊玩模式"
+        android:textColor="#F1E7CE"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

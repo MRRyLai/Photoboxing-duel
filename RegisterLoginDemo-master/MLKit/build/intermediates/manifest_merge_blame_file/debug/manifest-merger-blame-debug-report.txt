@@ -1,0 +1,190 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.google.mlkit.vision.demo"
+5    android:installLocation="auto" >
+6    <!--
+7 CameraX libraries require minSdkVersion 21, while this quickstart app
+8    supports low to 19. Needs to use overrideLibrary to make the merger tool
+9    ignore this conflict and import the libraries while keeping the app's lower
+10    minSdkVersion value. In code, will check SDK version, before calling CameraX
+11    APIs.
+12    -->
+13    <uses-sdk
+13-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:12:5-15:63
+14        android:minSdkVersion="21"
+14-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:12:5-15:63
+15        android:targetSdkVersion="31"
+15-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:12:5-15:63
+16        tools:overrideLibrary="           androidx.camera.camera2, androidx.camera.core,           androidx.camera.view, androidx.camera.lifecycle" />
+16-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:12:5-15:63
+17
+18    <uses-feature android:name="android.hardware.camera" />
+18-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:17:5-59
+18-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:17:19-57
+19
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:19:5-66
+20-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:19:22-64
+21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+21-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:20:5-80
+21-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:20:22-78
+22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+22-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:21:5-79
+22-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:21:22-77
+23    <uses-permission android:name="android.permission.CAMERA" />
+23-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:22:5-64
+23-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:22:22-62
+24
+25    <queries>
+25-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:113:5-117:15
+26        <intent>
+26-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:114:9-116:18
+27            <action android:name="android.media.action.IMAGE_CAPTURE" />
+27-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:115:13-73
+27-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:115:21-70
+28        </intent>
+29    </queries>
+30
+31    <application
+31-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:24:5-112:19
+32        android:name="androidx.multidex.MultiDexApplication"
+32-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:25:9-61
+33        android:icon="@drawable/logo_mlkit"
+33-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:26:9-44
+34        android:label="@string/app_name"
+34-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:27:9-41
+35        android:theme="@style/Theme.AppCompat" >
+35-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:28:9-47
+36        <meta-data
+36-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:30:9-32:68
+37            android:name="com.google.android.gms.version"
+37-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:31:13-58
+38            android:value="@integer/google_play_services_version" />
+38-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:32:13-66
+39
+40        <!--
+41          Optional: Add it to automatically download ML model to device after
+42          your app is installed.
+43        -->
+44        <meta-data
+44-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:36:9-38:62
+45            android:name="com.google.mlkit.vision.DEPENDENCIES"
+45-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:37:13-64
+46            android:value="barcode,face,ocr,ica,custom_ica" />
+46-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:38:13-60
+47
+48        <activity
+48-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:40:9-48:20
+49            android:name="com.google.mlkit.vision.demo.java.CameraXLivePreviewActivity"
+49-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:41:13-60
+50            android:exported="true"
+50-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:42:13-36
+51            android:theme="@style/AppTheme" >
+51-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:43:13-44
+52            <intent-filter>
+52-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:44:13-47:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:45:17-68
+53-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:45:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:46:17-76
+55-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:46:27-74
+56            </intent-filter>
+57        </activity>
+58        <activity
+58-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:50:9-53:20
+59            android:name="com.google.mlkit.vision.demo.java.ChooserActivity"
+59-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:51:13-49
+60            android:exported="false" >
+60-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:52:13-37
+61        </activity>
+62        <activity
+62-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:55:9-59:20
+63            android:name="com.google.mlkit.vision.demo.java.LivePreviewActivity"
+63-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:56:13-53
+64            android:exported="false"
+64-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:57:13-37
+65            android:theme="@style/AppTheme" >
+65-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:58:13-44
+66        </activity>
+67        <activity
+67-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:61:9-65:20
+68            android:name="com.google.mlkit.vision.demo.EntryChoiceActivity"
+68-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:62:13-48
+69            android:exported="false"
+69-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:63:13-37
+70            android:theme="@style/AppTheme" >
+70-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:64:13-44
+71        </activity>
+72        <activity
+72-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:67:9-71:20
+73            android:name="com.google.mlkit.vision.demo.java.CameraXSourceDemoActivity"
+73-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:68:13-59
+74            android:exported="false"
+74-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:69:13-37
+75            android:theme="@style/AppTheme" >
+75-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:70:13-44
+76        </activity>
+77        <activity
+77-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:73:9-77:20
+78            android:name="com.google.mlkit.vision.demo.java.StillImageActivity"
+78-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:74:13-52
+79            android:exported="false"
+79-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:75:13-37
+80            android:theme="@style/AppTheme" >
+80-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:76:13-44
+81        </activity>
+82        <activity
+82-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:79:9-82:20
+83            android:name="com.google.mlkit.vision.demo.kotlin.ChooserActivity"
+83-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:80:13-51
+84            android:exported="false" >
+84-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:81:13-37
+85        </activity>
+86        <activity
+86-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:84:9-88:20
+87            android:name="com.google.mlkit.vision.demo.kotlin.LivePreviewActivity"
+87-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:85:13-55
+88            android:exported="false"
+88-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:86:13-37
+89            android:theme="@style/AppTheme" >
+89-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:87:13-44
+90        </activity>
+91        <activity
+91-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:90:9-94:20
+92            android:name="com.google.mlkit.vision.demo.kotlin.CameraXLivePreviewActivity"
+92-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:91:13-62
+93            android:exported="false"
+93-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:92:13-37
+94            android:theme="@style/AppTheme" >
+94-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:93:13-44
+95        </activity>
+96        <activity
+96-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:96:9-100:20
+97            android:name="com.google.mlkit.vision.demo.kotlin.CameraXSourceDemoActivity"
+97-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:97:13-61
+98            android:exported="false"
+98-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:98:13-37
+99            android:theme="@style/AppTheme" >
+99-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:99:13-44
+100        </activity>
+101        <activity
+101-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:102:9-106:20
+102            android:name="com.google.mlkit.vision.demo.kotlin.StillImageActivity"
+102-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:103:13-54
+103            android:exported="false"
+103-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:104:13-37
+104            android:theme="@style/AppTheme" >
+104-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:105:13-44
+105        </activity>
+106        <activity
+106-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:108:9-110:39
+107            android:name="com.google.mlkit.vision.demo.preference.SettingsActivity"
+107-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:109:13-56
+108            android:exported="false" />
+108-->C:\Users\User\AndroidStudioProjects\Photoboxing_duel\RegisterLoginDemo-master\MLKit\src\main\AndroidManifest.xml:110:13-37
+109    </application>
+110
+111</manifest>
