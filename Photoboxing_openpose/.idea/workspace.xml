@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="082b764d-3acf-473a-8d05-8363286cf397" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../RegisterLoginDemo-master/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/.idea/deploymentTargetDropDown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/debug/app-debug.aab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/debug/app-debug.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/debug/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/libs/aip-java-sdk-4.11.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/libs/json-20160810.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/libs/slf4j-api-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/release/app-release.aab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/release/app-release.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/release/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/src/androidTest/java/com/example/facedetectdemo/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/src/main/java/com/example/facedetectdemo/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/src/main/java/com/example/facedetectdemo/MainActivityJava.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/src/main/java/com/example/facedetectdemo/bean/DetectFaceBean.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/src/main/java/com/example/facedetectdemo/helper/CameraHelper.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/src/main/java/com/example/facedetectdemo/helper/CameraHelperJava.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/src/main/java/com/example/facedetectdemo/helper/CameraListener.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/src/main/java/com/example/facedetectdemo/helper/CameraListenerJava.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/src/main/java/com/example/facedetectdemo/util/AipFaceObject.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/src/main/java/com/example/facedetectdemo/util/AipFaceObjectJava.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/src/main/java/com/example/facedetectdemo/util/Const.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/src/main/java/com/example/facedetectdemo/util/PermissionUtils.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/src/main/java/com/example/facedetectdemo/util/ScreenUtils.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/src/main/java/com/example/facedetectdemo/widget/CircleTextureBorderView.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/src/main/java/com/example/facedetectdemo/widget/CircleTextureBorderViewJava.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/src/main/java/com/example/facedetectdemo/widget/RoundTextureView.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/src/main/java/com/example/facedetectdemo/widget/RoundTextureViewJava.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/src/main/res/drawable-xhdpi/backimg3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/src/main/res/drawable-xhdpi/button1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/src/main/res/drawable-xhdpi/button2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/src/main/res/drawable-xhdpi/button21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/src/main/res/drawable-xhdpi/ipbutton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/src/main/res/drawable-xhdpi/title.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/src/main/res/layout/activity_main_java.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/app/src/test/java/com/example/facedetectdemo/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FaceDetectDemo/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RegisterLoginDemo-master/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RegisterLoginDemo-master/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SQL/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SQL/conn.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SQL/getuserinfo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SQL/login.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SQL/register.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SQL/register_from_android.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SQL/validate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/Photoboxing_Server.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/Photoboxing_Server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/client.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/anaconda3/Lib/site-packages/playsound.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="2H77GwG3ZAlgYKGrnLz3BR8TuSp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/showkeypoint.py" />
+    <property name="settings.editor.selected.configurable" value="editor.reader.mode" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
+  </component>
+  <component name="RunManager" selected="Python.Photoboxing_duel">
+    <configuration name="playsound" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Photoboxing_openpose" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/anaconda3/Lib/site-packages" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/anaconda3/Lib/site-packages/playsound.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="showkeypoint" type="PythonConfigurationType" factoryName="Python">
+      <module name="Photoboxing_openpose" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\AI\anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/showkeypoint.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.playsound" />
+      <item itemvalue="Python.showkeypoint" />
+      <item itemvalue="Python.Photoboxing_duel" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.playsound" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="082b764d-3acf-473a-8d05-8363286cf397" name="Default Changelist" comment="" />
+      <created>1667624177590</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667624177590</updated>
+    </task>
+    <servers />
+  </component>
+</project>
